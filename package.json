@@ -1,0 +1,21 @@
+{
+  "name": "@iebh/deepstream",
+  "version": "0.0.0",
+  "description": "Deepstream backend server for the @IEBH SR-Accelerator project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEBH/deepstream.git"
+  },
+  "keywords": [
+    "sra",
+    "sr-accelerator",
+    "deepstream"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IEBH/deepstream/issues"
+  },
+  "homepage": "https://github.com/IEBH/deepstream#readme"
+}
