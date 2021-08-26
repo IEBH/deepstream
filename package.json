@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/IEBH/deepstream#readme",
   "dependencies": {
+    "@deepstream/clusternode-redis": "^1.0.1",
     "@deepstream/server": "^5.2.4",
     "@deepstream/storage-mongodb": "^2.0.8",
     "npm": "^7.21.0"
