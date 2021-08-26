@@ -12,10 +12,14 @@
     "sr-accelerator",
     "deepstream"
   ],
+  "type": "module",
   "author": "Matt Carter <m@ttcarter.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IEBH/deepstream/issues"
   },
-  "homepage": "https://github.com/IEBH/deepstream#readme"
+  "homepage": "https://github.com/IEBH/deepstream#readme",
+  "dependencies": {
+    "@deepstream/server": "^5.2.4"
+  }
 }
