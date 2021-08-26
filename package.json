@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/IEBH/deepstream.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "sra",
     "sr-accelerator",
@@ -24,5 +27,10 @@
     "@deepstream/server": "^5.2.4",
     "@deepstream/storage-mongodb": "^2.0.8",
     "npm": "^7.21.0"
+  },
+  "devDependencies": {
+    "@deepstream/client": "^5.2.4",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
   }
 }
