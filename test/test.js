@@ -2,7 +2,7 @@ import {DeepstreamClient} from '@deepstream/client';
 import {expect} from 'chai';
 import {promisify} from 'node:util';
 
-let deepstreamUri = 'data.sr-accelerator.com:6020';
+let deepstreamUri = process.env.DEEPSTREAM || 'data.sr-accelerator.com:6020';
 let sessionId = Date.now();
 
 describe('Basic Deepstream testing', ()=> {
