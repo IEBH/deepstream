@@ -7,6 +7,8 @@
     "type": "git",
     "url": "git+https://github.com/IEBH/deepstream.git"
   },
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "nodemon --watch lib --exec 'npm run serve'",
     "serve": "node app.js",
@@ -18,8 +20,6 @@
     "deepstream"
   ],
   "type": "module",
-  "author": "Matt Carter <m@ttcarter.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IEBH/deepstream/issues"
   },
