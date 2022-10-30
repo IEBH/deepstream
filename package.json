@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/IEBH/deepstream.git"
   },
-  "author": "Matt Carter <m@ttcarter.com>",
+  "author": "Matt Carter <m@ttcarter.com> (https://github.com/hash-bang)",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --watch lib --exec 'npm run serve'",
